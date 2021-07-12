@@ -1,0 +1,78 @@
+.navbar{
+    background-color: greenyellow;
+    padding: 5px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.rs{
+    margin-top: 10px;
+    background-color: greenyellow;
+    color:black;
+    font-weight: bold;
+    border-radius: 10px;
+    height: 25px;
+    width: 100px;
+   padding-right: 0px;
+}
+.notes{
+    display: inline-block;
+    
+    width: 300px;
+    height: 150px;
+    overflow-y: scroll;
+    border: 0.5px dotted black;
+}
+.btn{
+    display: flex;
+    align-items: flex-end;
+    align-self: end;
+}
+.edit{
+    background-color: rgb(27, 230, 0);
+    color: white;
+    height: 25px;
+    width: 25x;
+    margin-left: 5px;
+    border-radius: 100%;
+}
+.edit:hover{
+    background-color: white;
+    color: rgb(0, 255, 55);
+    cursor: pointer;
+}
+.delete{
+    background-color: red;
+    color: white;
+    height: 25px;
+    width: 30x;
+    margin-left: 10px;
+    border-radius: 100%;;
+}
+.delete:hover{
+    background-color: white;
+    color: red;
+    cursor: pointer;
+}
+.text{
+    border: none;
+    height: fit-content;
+    width: fit-content;
+    overflow-y: hidden;
+    text-decoration: none;
+}
+.rs:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    width: 90px;
+    height: 20px;
+    border-radius: 20px;
+    transition: 0.7s;
+}
+textarea{
+ border:none;
+text-decoration : none;
+}
